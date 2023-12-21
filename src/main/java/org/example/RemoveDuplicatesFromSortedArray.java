@@ -12,7 +12,7 @@ public class RemoveDuplicatesFromSortedArray {
     }
 
     public int removeDuplicates(int[] nums) {
-        List<Integer> result = new ArrayList<>();
+//        List<Integer> result = new ArrayList<>();
         /*for (int num : nums) {
             if (!result.contains(num)) {
                 result.add(num);
