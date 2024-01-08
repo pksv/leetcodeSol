@@ -1,14 +1,13 @@
 package com.pksv.linkedlist;
 
+import static com.pksv.linkedlist.ListNode.printListNode;
+
 public class MergeTwoSortedLists {
     public static void main(String[] args) {
         ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
         ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         var x = new MergeTwoSortedLists().mergeTwoLists(list1, list2);
-        while (x != null) {
-            System.out.println(x.val);
-            x = x.next;
-        }
+        printListNode(x);
     }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

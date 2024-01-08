@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 public class SearchInsertPosition {
     public static void main(String[] args) {

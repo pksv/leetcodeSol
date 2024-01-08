@@ -1,15 +1,14 @@
 package com.pksv.linkedlist;
 
+import static com.pksv.linkedlist.ListNode.printListNode;
+
 public class RemoveDuplicatesFromSortedList {
     public static void main(String[] args) {
         ListNode head = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))));
 //        ListNode head = new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0)))));
 //        ListNode head = new ListNode();
         var x = new RemoveDuplicatesFromSortedList().deleteDuplicatesSpaceOptimise(head.next);
-        while (x != null) {
-            System.out.println(x.val);
-            x = x.next;
-        }
+        printListNode(x);
     }
 
     public ListNode deleteDuplicates(ListNode head) {
