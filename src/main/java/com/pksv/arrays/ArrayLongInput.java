@@ -21,4 +21,20 @@ public class ArrayLongInput {
         }
         return x;
     }
+
+    public int[] getInput() throws FileNotFoundException {
+        File file = new File("D:\\1111\\github\\leetcode\\src\\main\\java\\com\\pksv\\arrays\\input");
+        Scanner scanner = new Scanner(file);
+        StringBuilder stringBuilder = new StringBuilder();
+        while (scanner.hasNextLine()) {
+            stringBuilder.append(scanner.nextLine());
+        }
+        var input = stringBuilder.toString().split(",");
+        int[] x = new int[input.length + 1];
+        for (int i = 0; i < input.length; i++) {
+            var a = Integer.parseInt(input[i]);
+            x[i] = a;
+        }
+        return x;
+    }
 }
