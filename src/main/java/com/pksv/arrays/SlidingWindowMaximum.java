@@ -1,5 +1,6 @@
 package com.pksv.arrays;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
@@ -10,17 +11,17 @@ public class SlidingWindowMaximum {
 //        int[] nums = {1, 3, 1, 2, 0, 5};
 //        int k = 3;
 //        int[] nums = {1, -9, 8, -6, 6, 4, 0, 5};
-        int[] nums = {-7, -8, 7, 5, 7, 1, 6, 0};
-        int k = 4;
+//        int[] nums = {-7, -8, 7, 5, 7, 1, 6, 0};
+//        int k = 4;
 //        int[] nums = {1, -1};
 //        int k = 1;
-//        int[] nums;
-//        try {
-//            nums = new ArrayLongInput().getInput();
-//        } catch (FileNotFoundException e) {
-//            throw new RuntimeException(e);
-//        }
-//        int k = 10007;
+        int[] nums;
+        try {
+            nums = new ArrayLongInput().getInput();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        int k = 10007;
         System.out.println(Arrays.toString(new SlidingWindowMaximum().maxSlidingWindow(nums, k)));
     }
 
