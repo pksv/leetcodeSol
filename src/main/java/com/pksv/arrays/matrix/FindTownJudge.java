@@ -1,4 +1,4 @@
-package com.pksv.arrays;
+package com.pksv.arrays.matrix;
 
 public class FindTownJudge {
     public static void main(String[] args) {

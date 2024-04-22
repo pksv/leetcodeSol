@@ -11,18 +11,18 @@ public class MergeSortedArray {
     }
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int[] sol = nums1.clone();
+        int[] clone = nums1.clone();
         int i = 0, j = 0, pos = 0;
         while (i < m && j < n) {
-            if (sol[i] <= nums2[j]) {
-                nums1[pos++] = sol[i++];
+            if (clone[i] <= nums2[j]) {
+                nums1[pos++] = clone[i++];
             }
-            if (nums2[j] < sol[i]) {
+            if (nums2[j] < clone[i]) {
                 nums1[pos++] = nums2[j++];
             }
         }
         while (i < m)
-            nums1[pos++] = sol[i++];
+            nums1[pos++] = clone[i++];
         while (j < n)
             nums1[pos++] = nums2[j++];
     }
