@@ -39,7 +39,8 @@ public class IntegerToEnglishWords {
         } else {
             if (num > 19) {
                 b.append(tens[num / 10]).append(" ");
-            } b.append(digits[num % 10]);
+            }
+            b.append(digits[num % 10]);
         }
         return b.toString();
     }

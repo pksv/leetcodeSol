@@ -17,11 +17,11 @@ public class MyCalendar {
 //        System.out.println(calendar.book(20, 30));
 
 //        [[],[37,50],[33,50],[4,17],[35,48],[8,25]]
-        System.out.println(calendar.book(37,50));
-        System.out.println(calendar.book(33,50));
-        System.out.println(calendar.book(4,17));
-        System.out.println(calendar.book(35,48));
-        System.out.println(calendar.book(8,25));
+        System.out.println(calendar.book(37, 50));
+        System.out.println(calendar.book(33, 50));
+        System.out.println(calendar.book(4, 17));
+        System.out.println(calendar.book(35, 48));
+        System.out.println(calendar.book(8, 25));
 
 
     }

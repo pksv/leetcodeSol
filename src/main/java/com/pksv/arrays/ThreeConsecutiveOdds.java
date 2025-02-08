@@ -2,7 +2,7 @@ package com.pksv.arrays;
 
 public class ThreeConsecutiveOdds {
     public static void main(String[] args) {
-        int[] arr = {21,4,5,345,4,76,5,4,4,4,5,6,74,4};
+        int[] arr = {21, 4, 5, 345, 4, 76, 5, 4, 4, 4, 5, 6, 74, 4};
         System.out.println(new ThreeConsecutiveOdds().threeConsecutiveOdds(arr));
     }
 

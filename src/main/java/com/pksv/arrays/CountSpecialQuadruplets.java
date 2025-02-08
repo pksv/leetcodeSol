@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class CountSpecialQuadruplets {
     public static void main(String[] args) {
-        int[] nums = {1,1,1,3,5};
+        int[] nums = {1, 1, 1, 3, 5};
         System.out.println(new CountSpecialQuadruplets().countQuadruplets(nums));
     }
 

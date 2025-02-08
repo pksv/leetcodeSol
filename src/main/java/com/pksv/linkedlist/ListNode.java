@@ -32,6 +32,7 @@ public class ListNode {
             head = head.next;
         }
     }
+
     public static ListNode generateLinkedList(int... arr) {
         ListNode head = new ListNode();
         ListNode pointer = head;

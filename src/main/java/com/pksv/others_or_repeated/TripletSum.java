@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TripletSum {
     public static void main(String[] args) {
-        int [] arr = {12, 3, 4, 1, 6, 9};
+        int[] arr = {12, 3, 4, 1, 6, 9};
         int target = 24;
         System.out.println(Arrays.toString(new TripletSum().findTriplet(arr, target)));
     }

@@ -10,7 +10,7 @@ public class AverageWaitingTime {
     }
 
     public double averageWaitingTime(int[][] customers) {
-        for(var i : customers){
+        for (var i : customers) {
             Arrays.sort(i);
         }
         int time = 0;

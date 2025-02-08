@@ -6,7 +6,7 @@ public class JustifyString {
 
     public static void main(String[] args) {
 //        String[] words = {"This", "is", "an", "example", "of", "text", "justification."};
-        String[] words = {"Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"};
+        String[] words = {"Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"};
 //        String[] words = {"What", "must", "be", "acknowledgment", "shall", "be"};
         int maxWidth = 20;
         var x = justification(words, maxWidth);

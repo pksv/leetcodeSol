@@ -1,7 +1,6 @@
 package com.pksv.arrays;
 
 
-
 //Find the Winner of the Circular Game
 public class CircularGame {
     public static void main(String[] args) {

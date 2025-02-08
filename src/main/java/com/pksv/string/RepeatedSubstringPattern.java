@@ -18,7 +18,7 @@ public class RepeatedSubstringPattern {
                 for (int j = 0; j < n / i; j++) {
                     c.append(s, 0, i);
                 }
-                if(s.contentEquals(c)){
+                if (s.contentEquals(c)) {
                     return true;
                 }
             }

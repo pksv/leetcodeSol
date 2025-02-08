@@ -24,13 +24,14 @@ public class IsomorphicStrings {
         }
         return true;
     }
+
     public boolean isIsomorphicOptimised(String s, String t) {
         int n = s.length();
-        int[] c1 = new int[256] , c2 = new int[256];
-        for(int i=0;i<n;i++){
-            if(c1[s.charAt(i)]!=c2[t.charAt(i)]) return false;
-            c1[s.charAt(i)] = i+1;
-            c2[t.charAt(i)] = i+1;
+        int[] c1 = new int[256], c2 = new int[256];
+        for (int i = 0; i < n; i++) {
+            if (c1[s.charAt(i)] != c2[t.charAt(i)]) return false;
+            c1[s.charAt(i)] = i + 1;
+            c2[t.charAt(i)] = i + 1;
 
         }
         return true;

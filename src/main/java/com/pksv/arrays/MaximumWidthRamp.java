@@ -2,7 +2,7 @@ package com.pksv.arrays;
 
 public class MaximumWidthRamp {
     public static void main(String[] args) {
-        int [] nums = {6, 0, 8, 2, 1, 5};
+        int[] nums = {6, 0, 8, 2, 1, 5};
         System.out.println(new MaximumWidthRamp().maxWidthRamp(nums));
     }
 

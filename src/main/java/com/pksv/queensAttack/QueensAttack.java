@@ -24,10 +24,10 @@ class QueensAttack {
         try {
             List<List<Integer>> obstacls = new ObstaclesClass().getObstacles();
             List<List<Integer>> obstacles = new ArrayList<>();
-            var o1 =new ArrayList<Integer>();
+            var o1 = new ArrayList<Integer>();
             o1.add(5);
             o1.add(5);
-            var o2 =new ArrayList<Integer>();
+            var o2 = new ArrayList<Integer>();
             o2.add(4);
             o2.add(2);
             var o3 = new ArrayList<Integer>();

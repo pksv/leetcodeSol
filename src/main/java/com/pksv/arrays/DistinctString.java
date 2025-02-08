@@ -7,7 +7,7 @@ import java.util.Map;
 public class DistinctString {
     public static void main(String[] args) {
 //        String[] arr = {"d", "b", "c", "b", "c", "a"};
-        String[] arr = {"a","b","a"};
+        String[] arr = {"a", "b", "a"};
         int k = 2;
         System.out.println(new DistinctString().kthDistinct(arr, k));
     }

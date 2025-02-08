@@ -19,8 +19,9 @@ public class InvertBinaryTree {
         var result = new InvertBinaryTree().invertTree(root);
         System.out.println(new BinaryTreeInorderTraversal().inorderTraversal(result));
     }
+
     public TreeNode invertTree(TreeNode root) {
-        if(root == null) return null;
+        if (root == null) return null;
         root.left = invertTree(root.right);
         root.right = invertTree(root.left);
         return root;

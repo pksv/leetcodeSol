@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class RelativeRanks {
     public static void main(String[] args) {
-        int[] score = {10,3,8,9,4};
+        int[] score = {10, 3, 8, 9, 4};
         System.out.println(Arrays.toString(new RelativeRanks().findRelativeRanks(score)));
     }
 

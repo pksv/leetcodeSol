@@ -22,7 +22,7 @@ public class Main {
 //        System.out.println(new Main().forthHighest(List.of(1,2,3,4,5,6,7,8,9,10)));
 
         int[] a = {1000000, 7, 3, 2, 1}, b = {4, 1, 2};
-        System.out.println(new Main().merge(a,b));
+        System.out.println(new Main().merge(a, b));
     }
 
     public void te() {

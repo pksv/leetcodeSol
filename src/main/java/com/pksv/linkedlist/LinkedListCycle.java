@@ -28,7 +28,7 @@ public class LinkedListCycle {
     }
 
     public boolean hasCycleOptimal(ListNode head) {
-        if(head == null || head.next == null) return false;
+        if (head == null || head.next == null) return false;
         ListNode fast = head.next, slow = head;
         while (fast != slow) {
             if (fast == null || fast.next == null) return false;
