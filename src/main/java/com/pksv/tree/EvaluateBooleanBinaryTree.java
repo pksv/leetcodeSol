@@ -22,7 +22,8 @@ public class EvaluateBooleanBinaryTree {
         }
 
         if (root.val == 2) {
-            return evaluateTree(root.left) || evaluateTree(root.right);
+            return evaluateTree(
+                    root.left) || evaluateTree(root.right);
         } else {
             return evaluateTree(root.left) && evaluateTree(root.right);
         }

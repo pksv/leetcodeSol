@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.bit_manipulation;
 
 public class SumOfAllSubsetXORTotals {
     public static void main(String[] args) {

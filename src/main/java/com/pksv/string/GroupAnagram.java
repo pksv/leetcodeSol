@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 import java.util.*;
 

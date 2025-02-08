@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays.matrix;
 
 public class PathWithMaximumGold {
     public static void main(String[] args) {

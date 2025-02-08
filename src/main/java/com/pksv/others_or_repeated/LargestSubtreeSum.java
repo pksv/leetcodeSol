@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.others_or_repeated;
 
 public class LargestSubtreeSum {
     private int ans = Integer.MIN_VALUE;

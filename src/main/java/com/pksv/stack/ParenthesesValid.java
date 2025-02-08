@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.stack;
 
 //Minimum Add to Make Parentheses Valid
 public class ParenthesesValid {

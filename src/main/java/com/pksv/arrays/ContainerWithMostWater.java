@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 public class ContainerWithMostWater {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.others_or_repeated;
 
 public class Temp {
     public static void main(String[] args) {

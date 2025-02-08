@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 //Separate Black and White Balls
 public class SeparateBalls {

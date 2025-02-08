@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.others_or_repeated;
 
 import java.util.HashSet;
 import java.util.Set;

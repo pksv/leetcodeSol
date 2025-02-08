@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 public class SortColors {
     public static void main(String[] args) {

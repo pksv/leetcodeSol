@@ -32,4 +32,13 @@ public class ListNode {
             head = head.next;
         }
     }
+    public static ListNode generateLinkedList(int... arr) {
+        ListNode head = new ListNode();
+        ListNode pointer = head;
+        for (int num : arr) {
+            pointer.next = new ListNode(num);
+            pointer = pointer.next;
+        }
+        return head.next;
+    }
 }

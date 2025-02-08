@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 public class MaximumNumberBalloons {
     public static void main(String[] args) {

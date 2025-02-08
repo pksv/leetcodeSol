@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 public class StringToInteger {
     public static void main(String[] args) {

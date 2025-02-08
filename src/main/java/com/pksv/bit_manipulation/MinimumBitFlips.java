@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.bit_manipulation;
 
 //Minimum Bit Flips to Convert Number
 public class MinimumBitFlips {

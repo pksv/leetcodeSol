@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 import java.util.Stack;
 
@@ -12,12 +12,8 @@ public class BaseballGame {
         Stack<Integer> stack = new Stack<>();
         for (var o : operations) {
             switch (o) {
-                case "D" -> {
-                    stack.push(stack.peek() * 2);
-                }
-                case "C" -> {
-                    stack.pop();
-                }
+                case "D" -> stack.push(stack.peek() * 2);
+                case "C" -> stack.pop();
                 case "+" -> {
                     int last = stack.pop();
                     int secondL = stack.peek();

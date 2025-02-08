@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 //Minimum Number of Swaps to Make the String Balanced
 public class MinimumNumberOfSwaps {

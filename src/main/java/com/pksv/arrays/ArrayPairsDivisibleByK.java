@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 //Check If Array Pairs Are Divisible by k
 public class ArrayPairsDivisibleByK {

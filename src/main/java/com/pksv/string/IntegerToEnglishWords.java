@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 public class IntegerToEnglishWords {
     public static void main(String[] args) {

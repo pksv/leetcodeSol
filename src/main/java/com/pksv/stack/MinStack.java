@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.stack;
 
 import java.util.Stack;
 

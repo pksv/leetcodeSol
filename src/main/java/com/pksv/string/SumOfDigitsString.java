@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 //Sum of Digits of String After Convert
 public class SumOfDigitsString {

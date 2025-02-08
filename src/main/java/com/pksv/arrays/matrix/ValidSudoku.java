@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays.matrix;
 
 import java.util.HashSet;
 import java.util.Set;

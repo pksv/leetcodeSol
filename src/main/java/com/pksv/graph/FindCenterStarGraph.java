@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.graph;
 
 public class FindCenterStarGraph {
     public static void main(String[] args) {

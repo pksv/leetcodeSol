@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.bit_manipulation;
 
 import java.util.Arrays;
 

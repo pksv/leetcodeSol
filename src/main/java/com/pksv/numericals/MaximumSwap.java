@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.numericals;
 
 public class MaximumSwap {
     public static void main(String[] args) {

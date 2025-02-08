@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 //Count Number of Maximum Bitwise-OR Subsets
 public class CountMaximumORSubsets {

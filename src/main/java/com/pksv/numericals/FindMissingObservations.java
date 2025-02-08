@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.numericals;
 
 import java.util.Arrays;
 

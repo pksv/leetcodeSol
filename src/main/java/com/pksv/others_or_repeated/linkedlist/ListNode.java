@@ -1,4 +1,4 @@
-package com.pksv.linkedlist;
+package com.pksv.others_or_repeated.linkedlist;
 
 public class ListNode {
     int val;
@@ -16,7 +16,7 @@ public class ListNode {
         this.next = next;
     }
 
-    static ListNode generateLinkedList(int... arr) {
+    public static ListNode generateLinkedList(int... arr) {
         ListNode head = new ListNode();
         ListNode pointer = head;
         for (int num : arr) {

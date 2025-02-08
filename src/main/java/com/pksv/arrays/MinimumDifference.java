@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.arrays;
 
 
 //Minimum Difference Between Largest and Smallest Value in Three Moves

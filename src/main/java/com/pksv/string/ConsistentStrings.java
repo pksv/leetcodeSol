@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.string;
 
 //Count the Number of Consistent Strings
 public class ConsistentStrings {

@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.numericals;
 
 public class KeysKeyboard {
     public static void main(String[] args) {

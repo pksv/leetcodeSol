@@ -1,4 +1,4 @@
-package com.pksv;
+package com.pksv.others_or_repeated;
 
 public class MaxSum {
     public static void main(String[] args) {
