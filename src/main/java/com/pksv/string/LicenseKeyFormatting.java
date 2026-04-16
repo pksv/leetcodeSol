@@ -2,10 +2,10 @@ package com.pksv.string;
 
 public class LicenseKeyFormatting {
     public static void main(String[] args) {
-        String s = "5F3Z-2e-9-w";
-//        String s = "2-5g-3-J";
-        int k = 4;
-        System.out.println(new LicenseKeyFormatting().licenseKeyFormatting(s, k));
+//        String s = "5F3Z-2e-9-w";
+        String s = "2-5g-3-J";
+        int k = 2;
+        System.out.println(new LicenseKeyFormatting().licenseKeyFormatting2(s, k));
     }
 
     public String licenseKeyFormatting(String s, int k) {
@@ -20,5 +20,20 @@ public class LicenseKeyFormatting {
             result.append(s, i, i + k).append("-");
         }
         return result.deleteCharAt(result.length() - 1).toString();
+    }
+
+    public String licenseKeyFormatting2(String s, int k) {
+        StringBuilder result = new StringBuilder();
+        int len = k;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if(s.charAt(i) == '-') continue;
+            if (len == 0) {
+                result.append("-");
+                len = k;
+            }
+            len--;
+            result.append(Character.toUpperCase(s.charAt(i)));
+        }
+        return result.reverse().toString();
     }
 }
